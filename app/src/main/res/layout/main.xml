@@ -13,13 +13,21 @@
       android:layout_height="wrap_content"
       android:inputType="number"/>
 
-  <TextView
-      android:id="@+id/result"
-      android:text="Result"
-      android:gravity="center_horizontal"
-      android:layout_width="100dp"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/number_input_two"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
 
   <Button
       android:layout_width="200dp"

@@ -11,5 +11,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name="ResultActivity"
+                  android:label="@string/ractivity_name">
+        </activity>
     </application>
 </manifest>
